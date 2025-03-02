@@ -175,15 +175,10 @@ export default function DefaultLayout({
         )}
       </main>
       <footer className="w-full flex items-center justify-center py-3">
-        <Link
-          isExternal
-          className="flex items-center gap-1 text-current"
-          href="#"
-          title="heroui.com homepage"
-        >
-          <span className="text-default-600">Powered by</span>
-          <p className="text-primary">CS-club</p>
-        </Link>
+     
+          <span className="text-default-600 text-white">Powered by </span>
+          <p className="text-default-600 text-white">- bobthebuilder</p>
+    
       </footer>
     </div>
   );
